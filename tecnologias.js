@@ -17,19 +17,19 @@ import {
 export const tecnologias = [
   {
     nombre: "HTML5",
-    icon: <IconBrandHtml5 className="w-24 h-24" aria-label="HTML"/>,
+    icon: <IconBrandHtml5 className="w-20 h-20" aria-label="HTML"/>,
   },
   {
     nombre: "CSS3",
     icon: (
-      <IconBrandCss3 className="w-24 h-24" aria-label="CSS"
+      <IconBrandCss3 className="w-20 h-20" aria-label="CSS"
       />
     ),
   },
   {
     nombre: "TailwindCSS",
     icon: (
-      <IconBrandTailwind className="w-24 h-24" aria-label="Tailwind"
+      <IconBrandTailwind className="w-20 h-20" aria-label="Tailwind"
       />
     ),
   },
@@ -37,7 +37,7 @@ export const tecnologias = [
     nombre: "JavaScript",
     icon: (
       <IconBrandJavascript
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="JavaScript"
       />
     ),
@@ -46,7 +46,7 @@ export const tecnologias = [
     nombre: "React",
     icon: (
       <IconBrandReact
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="React"
       />
     ),
@@ -55,7 +55,7 @@ export const tecnologias = [
     nombre: "Next",
     icon: (
       <IconBrandNextjs
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Next"
       />
     ),
@@ -64,7 +64,7 @@ export const tecnologias = [
     nombre: "Vite",
     icon: (
       <IconBrandVite
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Vite"
       />
     ),
@@ -73,7 +73,7 @@ export const tecnologias = [
     nombre: "Android",
     icon: (
       <IconBrandAndroid
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Android"
       />
     ),
@@ -82,7 +82,7 @@ export const tecnologias = [
     nombre: "React Native",
     icon: (
       <IconBrandReactNative
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="React Native"
       />
     ),
@@ -91,7 +91,7 @@ export const tecnologias = [
     nombre: "Firebase",
     icon: (
       <IconBrandFirebase
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Firebase"
       />
     ),
@@ -100,7 +100,7 @@ export const tecnologias = [
     nombre: "Supabase",
     icon: (
       <IconBrandSupabase
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Supabase"
       />
     ),
@@ -109,7 +109,7 @@ export const tecnologias = [
     nombre: "NodeJs",
     icon: (
       <IconBrandNodejs
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="NodeJs"
       />
     ),
@@ -118,7 +118,7 @@ export const tecnologias = [
     nombre: "Git",
     icon: (
       <IconBrandGit
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="Git"
       />
     ),
@@ -127,7 +127,7 @@ export const tecnologias = [
     nombre: "GitHub",
     icon: (
       <IconBrandGithub
-        className="w-24 h-24"
+        className="w-20 h-20"
         aria-label="GitHub"
       />
     ),
