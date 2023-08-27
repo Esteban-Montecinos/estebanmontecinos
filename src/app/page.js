@@ -1,14 +1,14 @@
 import Div from "./components/divider";
 import Nav from "./components/nav-bar";
-import ProyectosList from "./components/proyectos-list";
 import { proyectos } from "../../proyectos";
 import { contactos } from "../../contactos";
 import { tecnologias } from "../../tecnologias";
 import { educacion } from "../../educacion";
+import Header from "./components/header";
+import ProyectosList from "./components/proyectos-list";
 import Tecnologias from "./components/tecnologias";
-import Header from "./components/Header";
-import Contacto from "./components/contacto";
 import Educacion from "./components/educacion";
+import Contacto from "./components/contacto";
 
 export default function Home() {
   return (
