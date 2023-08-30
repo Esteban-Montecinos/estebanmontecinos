@@ -2,7 +2,6 @@ export const proyectos = [{
     "id":"1",
     "titulo": "Preguntas anónimas",
     "descripcion":"Aplicación de preguntas anónimas, una aplicación con una interfáz similar a NGL. A diferencia de NGL, esta es una aplicación de preguntas anónimas donde todas las preguntas llegan al muro principal.",
-    "image_url": "https://jvxhgyidasjvhhfycxwi.supabase.co/storage/v1/object/public/imagenes-proyectos/preguntas.webp",
     "git_url": "https://github.com/Esteban-Montecinos/preguntas-app",
     "web_url": "https://preguntas-app.vercel.app/",
     "etiquetas": [{"nombre":"NextJS"},{"nombre":"TailwindCSS"},{"nombre":"OpenGraph"},{"nombre":"Supabase"},{"nombre":"ToastifyJS"},{"nombre":"React"}]
@@ -10,8 +9,7 @@ export const proyectos = [{
 {
     "id":"2",
     "titulo": "Frontend Mentor Challenges",
-    "descripcion":"Aplicación que hace un scraping a Frontend Mentor  para obtener los challenges y poder dar Like a los proyectos que se quieran realizar.",
-    "image_url": "https://jvxhgyidasjvhhfycxwi.supabase.co/storage/v1/object/public/imagenes-proyectos/frontendmentor.webp",
+    "descripcion":"Se ha desarrollado una aplicación que realiza el proceso de extracción de datos (scraping) desde el sitio web Frontend Mentor, con el propósito de obtener los retos (challenges) disponibles. Esta herramienta permite la funcionalidad de otorgar 'Me gusta' a los proyectos seleccionados para su futura realización.",
     "git_url": "https://github.com/Esteban-Montecinos/frontend-mentor-challenges",
     "web_url": "https://frontend-mentor-amber.vercel.app/",
     "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"},{"nombre":"Cheerio"}]
@@ -19,8 +17,7 @@ export const proyectos = [{
 {
     "id":"3",
     "titulo": "Comida al azar",
-    "descripcion":"Obtiene una receta de una comida aleatoria con cada uno de sus ingredientes.",
-    "image_url": "https://jvxhgyidasjvhhfycxwi.supabase.co/storage/v1/object/public/imagenes-proyectos/randommeal.webp",
+    "descripcion":"Esta aplicación recupera desde una API una receta culinaria completa junto con la lista de sus ingredientes asociados.",
     "git_url": "https://github.com/Esteban-Montecinos/random-meal",
     "web_url": "https://random-meal-peach.vercel.app/",
     "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"}]
@@ -28,9 +25,26 @@ export const proyectos = [{
 {
     "id":"4",
     "titulo": "CS:GO noticias y partidas",
-    "descripcion":"Proyecto de noticias y partidas de algunos torneos de CS:GO, datos sacados de una API no oficial de hltv.",
-    "image_url": "https://jvxhgyidasjvhhfycxwi.supabase.co/storage/v1/object/public/imagenes-proyectos/csgomatches.webp",
+    "descripcion":"Plataforma de desarrollo que presenta información relativa a noticias y resultados de encuentros en diversos torneos de CS:GO. Los datos se obtienen mediante una API no oficial proporcionada por HLTV.",
     "git_url": "https://github.com/Esteban-Montecinos/csgo-matches-and-tournaments",
     "web_url": "https://csgo-matches-and-tournaments.vercel.app/",
     "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"}]
-},]
+},
+{
+    "id":"5",
+    "titulo": "*MNTodo List",
+    "descripcion":"Aplicación de gestión de tareas que posibilita la creación y seguimiento de una lista de tareas pendientes, permitiendo tanto la adición de nuevas tareas como la marcación de las mismas como completadas.",
+    "git_url": "https://github.com/Esteban-Montecinos/todo-list-app",
+    "web_url": "https://mntodo-list.vercel.app/",
+    "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"},{"nombre":"Zustand"}]
+},
+{
+    "id":"6",
+    "titulo": "*MNTree",
+    "descripcion":"Plataforma de redes sociales que emplea el protocolo OAuth de GitHub para autenticar a los usuarios, brindando la capacidad de compartir contenido y dar 'Me gusta' a las diversas publicaciones.",
+    "git_url": "https://github.com/Esteban-Montecinos/mntree",
+    "web_url": "https://mntree.vercel.app/",
+    "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"},{"nombre":"Supabase"}]
+},
+
+]

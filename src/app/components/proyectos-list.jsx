@@ -9,8 +9,8 @@ export default function ProyectosList({proyectos}) {
           Aquí hay algunos de mis proyectos, puedes verlos todos en mi <Link href="https://github.com/Esteban-Montecinos" className="underline" target="_blank">GitHub.</Link>
         </p>
         <div className='grid grid-cols-1 gap-4 mt-8 md:grid-cols-3'>
-        {proyectos.map(({id, titulo, descripcion, image_url, git_url, web_url, etiquetas}) => (
-            <ProyectoCard key={id} id={id} titulo={titulo} descripcion={descripcion} image_url={image_url} git_url={git_url} web_url={web_url} etiquetas={etiquetas}/>
+        {proyectos.map(({id, titulo, descripcion, git_url, web_url, etiquetas}) => (
+            <ProyectoCard key={id} titulo={titulo} descripcion={descripcion} git_url={git_url} web_url={web_url} etiquetas={etiquetas}/>
           ))}
         </div>
       </section>

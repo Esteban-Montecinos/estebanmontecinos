@@ -11,10 +11,8 @@ import {
 } from "@nextui-org/react";
 
 export default function ProyectoCard({
-  id,
   titulo,
   descripcion,
-  image_url,
   git_url,
   web_url,
   etiquetas,
