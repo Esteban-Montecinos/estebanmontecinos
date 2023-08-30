@@ -13,6 +13,8 @@ import {
   IconBrandReact,
   IconBrandSupabase,
   IconBrandVite,
+  IconBrandPhp,
+  IconBrandCSharp,
 } from "@tabler/icons-react";
 export const tecnologias = [
   {
@@ -84,6 +86,24 @@ export const tecnologias = [
       <IconBrandReactNative
         className="w-20 h-20"
         aria-label="React Native"
+      />
+    ),
+  },
+  {
+    nombre: "C#",
+    icon: (
+      <IconBrandCSharp
+        className="w-20 h-20"
+        aria-label="C#"
+      />
+    ),
+  },
+  {
+    nombre: "PHP",
+    icon: (
+      <IconBrandPhp
+        className="w-20 h-20"
+        aria-label="PHP"
       />
     ),
   },
