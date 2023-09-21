@@ -11,7 +11,7 @@ export const proyectos = [{
     "titulo": "Frontend Mentor Challenges",
     "descripcion":"Se ha desarrollado una aplicación que realiza el proceso de extracción de datos (scraping) desde el sitio web Frontend Mentor, con el propósito de obtener los retos (challenges) disponibles. Esta herramienta permite la funcionalidad de otorgar 'Me gusta' a los proyectos seleccionados para su futura realización.",
     "git_url": "https://github.com/Esteban-Montecinos/frontend-mentor-challenges",
-    "web_url": "https://frontend-mentor-amber.vercel.app/",
+    "web_url": "https://frontendmentor-esteban.vercel.app/",
     "etiquetas": [{"nombre":"React"},{"nombre":"NextJS"},{"nombre":"TailwindCSS"},{"nombre":"Cheerio"}]
 },
 {
